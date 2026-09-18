@@ -20,6 +20,8 @@ jobs:
           python-version: '3.11'
       - name: Install Pillow
         run: python -m pip install --upgrade pillow
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Download Shanwei image assets
         run: python scripts/download_shanwei_assets.py
       - name: Download and trim open-license B-roll videos
