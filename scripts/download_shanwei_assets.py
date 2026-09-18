@@ -41,7 +41,9 @@ def source_page(filename: str) -> str:
 def direct_upload_url(filename: str) -> str:
     normalized = filename.replace(" ", "_")
     h = hashlib.md5(normalized.encode("utf-8")).hexdigest()
-    return "https://upload.wikimedia.org/wikipedia/commons/" + h[0] + "/" + h[:2] + "/" + quote(normalized, safe="_(),.-")
+    encoded = quote(normalized, safe="_(),.-")
+    # Wikimedia explicitly recommends thumbnail URLs for automated consumers.
+    return "https://upload.wikimedia.org/wikipedia/commons/thumb/" + h[0] + "/" + h[:2] + "/" + encoded + "/1280px-" + encoded
 
 def download(url: str, target: Path):
     last = None
