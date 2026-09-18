@@ -1,16 +1,24 @@
-name: Download Shanwei video assets
+name: Download and verify Shanwei assets
 
 on:
   push:
     branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/download-shanwei-assets.yml'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: shanwei-assets-main
+  cancel-in-progress: false
+
 jobs:
   build-assets:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -19,21 +27,42 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install Pillow
-        run: python -m pip install --upgrade pillow
-      - name: Install ffmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - name: Download Shanwei image assets
-        run: python scripts/download_shanwei_assets.py
-      - name: Download and trim open-license B-roll videos
-        run: python scripts/download_broll_videos.py
-      - name: Commit generated assets
+        run: python -m pip install pillow
+      - name: Ensure ffmpeg is available
+        run: |
+          if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+      - name: Compile verifier
+        run: python -m py_compile scripts/verify_package_assets.py
+      - name: Download image assets when no inventory exists
+        if: hashFiles('shanwei-video-assets/manifest.json') == ''
+        run: python -u scripts/download_shanwei_assets.py
+      - name: Download generic B-roll when no inventory exists
+        if: hashFiles('shanwei-video-assets/video_manifest.json') == ''
+        run: python -u scripts/download_broll_videos.py
+      - name: Verify actual media, source credits, and build ready ZIP
+        run: python -u scripts/verify_package_assets.py
+      - name: Commit verified assets and ZIP
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add shanwei-video-assets
+          git add shanwei-video-assets downloads README.md
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Add Shanwei image and video assets"
+            git commit -m "Publish verified Shanwei media ZIP and accurate source credits"
+            git pull --rebase origin main
             git push
           fi
+      - name: Upload ready-to-download package
+        uses: actions/upload-artifact@v4
+        with:
+          name: shanwei-materials-ready
+          path: |
+            downloads/shanwei_materials_ready.zip
+            downloads/package_info.json
+            downloads/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 30
