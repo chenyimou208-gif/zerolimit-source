@@ -1,5 +1,5 @@
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 import json
@@ -38,12 +38,28 @@ UA = "ShanweiVideoAssetCollector/1.0 (educational media project; GitHub Actions)
 def source_page(filename: str) -> str:
     return "https://commons.wikimedia.org/wiki/File:" + quote(filename.replace(" ", "_"), safe="_(),.-")
 
-def direct_upload_url(filename: str) -> str:
-    normalized = filename.replace(" ", "_")
-    h = hashlib.md5(normalized.encode("utf-8")).hexdigest()
-    encoded = quote(normalized, safe="_(),.-")
-    # Wikimedia explicitly recommends thumbnail URLs for automated consumers.
-    return "https://upload.wikimedia.org/wikipedia/commons/thumb/" + h[0] + "/" + h[:2] + "/" + encoded + "/1280px-" + encoded
+def resolve_thumb_urls(filenames):
+    titles = "|".join("File:" + f for f in filenames)
+    params = {
+        "action": "query",
+        "format": "json",
+        "prop": "imageinfo",
+        "iiprop": "url|mime|mediatype",
+        "iiurlwidth": "1280",
+        "titles": titles,
+    }
+    url = "https://commons.wikimedia.org/w/api.php?" + urlencode(params)
+    req = Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+    with urlopen(req, timeout=180) as r:
+        data = json.loads(r.read().decode("utf-8"))
+    out = {}
+    for page in data.get("query", {}).get("pages", {}).values():
+        title = page.get("title", "")
+        if title.startswith("File:"):
+            name = title[5:]
+            info = (page.get("imageinfo") or [{}])[0]
+            out[name] = info.get("thumburl") or info.get("url")
+    return out
 
 def download(url: str, target: Path):
     last = None
@@ -78,12 +94,12 @@ for idx, a in enumerate(ASSETS):
     print(f'Downloading {a["id"]}: {a["file"]}')
     try:
         if not target.exists():
-            download(direct_upload_url(a["file"]), target)
+            download(resolved_urls.get(a["file"]) or resolved_urls.get(a["file"].replace("_", " ")), target)
         ref = REFS / a["out"]
         make_ref(target, ref)
         item = dict(a)
         item["source_page"] = source_page(a["file"])
-        item["download_url"] = direct_upload_url(a["file"])
+        item["download_url"] = resolved_urls.get(a["file"]) or resolved_urls.get(a["file"].replace("_", " "))
         item["original_path"] = str(target)
         item["gemini_ref_path"] = str(ref)
         manifest.append(item)
