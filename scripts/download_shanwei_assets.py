@@ -73,19 +73,19 @@ for idx, a in enumerate(ASSETS):
     print(f'Downloading {a["id"]}: {a["file"]}')
     try:
         if not target.exists():
-            download(redirect_url(a["file"]), target)
+            download(direct_upload_url(a["file"]), target)
         ref = REFS / a["out"]
         make_ref(target, ref)
         item = dict(a)
         item["source_page"] = source_page(a["file"])
-        item["download_redirect"] = redirect_url(a["file"])
+        item["download_url"] = direct_upload_url(a["file"])
         item["original_path"] = str(target)
         item["gemini_ref_path"] = str(ref)
         manifest.append(item)
     except Exception as e:
         print(f'  FAILED {a["id"]}: {e}')
         failures.append({"id": a["id"], "file": a["file"], "error": repr(e)})
-    time.sleep(7 + random.uniform(0, 4))
+    time.sleep(2.5 + random.uniform(0, 1.5))
 
 (ROOT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 (ROOT / "failures.json").write_text(json.dumps(failures, ensure_ascii=False, indent=2), encoding="utf-8")
