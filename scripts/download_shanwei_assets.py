@@ -45,7 +45,7 @@ def direct_upload_url(filename: str) -> str:
 
 def download(url: str, target: Path):
     last = None
-    for attempt in range(1, 8):
+    for attempt in range(1, 3):
         try:
             req = Request(url, headers={
                 "User-Agent": UA,
@@ -56,7 +56,7 @@ def download(url: str, target: Path):
             return
         except (HTTPError, URLError) as e:
             last = e
-            wait = min(90, 8 * attempt) + random.uniform(0, 4)
+            wait = 2 * attempt + random.uniform(0, 1)
             print(f"  attempt {attempt} failed: {e}; waiting {wait:.1f}s")
             if target.exists():
                 target.unlink()
@@ -88,7 +88,7 @@ for idx, a in enumerate(ASSETS):
     except Exception as e:
         print(f'  FAILED {a["id"]}: {e}')
         failures.append({"id": a["id"], "file": a["file"], "error": repr(e)})
-    time.sleep(2.5 + random.uniform(0, 1.5))
+    time.sleep(1.2 + random.uniform(0, 0.8))
 
 (ROOT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 (ROOT / "failures.json").write_text(json.dumps(failures, ensure_ascii=False, indent=2), encoding="utf-8")
