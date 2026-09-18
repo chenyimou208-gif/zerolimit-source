@@ -6,6 +6,7 @@ import json
 import shutil
 import time
 import random
+import hashlib
 
 from PIL import Image, ImageOps
 
@@ -37,8 +38,10 @@ UA = "ShanweiVideoAssetCollector/1.0 (educational media project; GitHub Actions)
 def source_page(filename: str) -> str:
     return "https://commons.wikimedia.org/wiki/File:" + quote(filename.replace(" ", "_"), safe="_(),.-")
 
-def redirect_url(filename: str) -> str:
-    return "https://commons.wikimedia.org/wiki/Special:Redirect/file/" + quote(filename, safe="(),.-")
+def direct_upload_url(filename: str) -> str:
+    normalized = filename.replace(" ", "_")
+    h = hashlib.md5(normalized.encode("utf-8")).hexdigest()
+    return "https://upload.wikimedia.org/wikipedia/commons/" + h[0] + "/" + h[:2] + "/" + quote(normalized, safe="_(),.-")
 
 def download(url: str, target: Path):
     last = None
