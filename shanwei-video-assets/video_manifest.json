@@ -1,0 +1,32 @@
+[
+  {
+    "id": "v01",
+    "path": "shanwei-video-assets/broll_generic/v01_south_china_fishing_departure.mp4",
+    "label": "通用华南渔港/渔船出海氛围镜头（不是汕尾实拍）",
+    "author": "中国新闻网",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2020年8月16日_海南疍家人开渔：传统祭海仪式后鸣笛出海.webm",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/2020%E5%B9%B48%E6%9C%8816%E6%97%A5_%E6%B5%B7%E5%8D%97%E7%96%8D%E5%AE%B6%E4%BA%BA%E5%BC%80%E6%B8%94%EF%BC%9A%E4%BC%A0%E7%BB%9F%E7%A5%AD%E6%B5%B7%E4%BB%AA%E5%BC%8F%E5%90%8E%E9%B8%A3%E7%AC%9B%E5%87%BA%E6%B5%B7.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "note": "Generic B-roll only; do not present this clip as footage shot in Shanwei."
+  },
+  {
+    "id": "v02",
+    "path": "shanwei-video-assets/broll_generic/v02_generic_beach_waves.mp4",
+    "label": "通用海浪/沙滩过渡镜头（不是汕尾实拍）",
+    "author": "Liuxingy",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:秦皇岛山海关老龙头景区的沙滩海水.webm",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%E7%A7%A6%E7%9A%87%E5%B2%9B%E5%B1%B1%E6%B5%B7%E5%85%B3%E8%80%81%E9%BE%99%E5%A4%B4%E6%99%AF%E5%8C%BA%E7%9A%84%E6%B2%99%E6%BB%A9%E6%B5%B7%E6%B0%B4.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "note": "Generic B-roll only; do not present this clip as footage shot in Shanwei."
+  },
+  {
+    "id": "v03",
+    "path": "shanwei-video-assets/broll_generic/v03_generic_waves_with_sound.mp4",
+    "label": "通用海浪与环境声镜头（不是汕尾实拍）",
+    "author": "LN9267",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:竹灣海灘的海浪聲.webm",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/%E7%AB%B9%E7%81%A3%E6%B5%B7%E7%81%98%E7%9A%84%E6%B5%B7%E6%B5%AA%E8%81%B2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "note": "Generic B-roll only; do not present this clip as footage shot in Shanwei."
+  }
+]

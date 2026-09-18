@@ -1,72 +1,7 @@
 [
   {
-    "id": "01",
-    "file": "Hong Hai Wan, Shanwei, Aug 2022.jpg",
-    "error": "<HTTPError 429: 'Too Many Requests (015d12c)'>"
-  },
-  {
-    "id": "02",
-    "file": "Shanwei Zhelang Honghaiwan 2014.01.18 14-28-16.jpg",
-    "error": "<HTTPError 429: 'Too Many Requests (015d12c)'>"
-  },
-  {
-    "id": "03",
-    "file": "Shanwei Zhelang Honghaiwan 2014.01.18 14-58-32.jpg",
-    "error": "<HTTPError 429: 'Too Many Requests (015d12c)'>"
-  },
-  {
-    "id": "04",
-    "file": "Shanwei Zhelang Honghaiwan 2014.01.18 15-03-43.jpg",
-    "error": "<HTTPError 429: 'Too Many Requests (015d12c)'>"
-  },
-  {
-    "id": "05",
-    "file": "Shanwei Yugang 2014.01.18 11-18-05.jpg",
-    "error": "<HTTPError 429: 'Too Many Requests (015d12c)'>"
-  },
-  {
-    "id": "06",
-    "file": "Shanwei Yugang 2014.01.18 11-47-43.jpg",
-    "error": "<HTTPError 429: 'Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)'>"
-  },
-  {
-    "id": "07",
-    "file": "Shanwei Yugang 2014.01.18 11-54-45.jpg",
-    "error": "<HTTPError 429: 'Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)'>"
-  },
-  {
-    "id": "08",
-    "file": "Shanwei 2018 11 part12.jpg",
-    "error": "<HTTPError 429: 'Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)'>"
-  },
-  {
-    "id": "09",
-    "file": "Shanwei 2018 11 part26.jpg",
-    "error": "<HTTPError 429: 'Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)'>"
-  },
-  {
-    "id": "10",
-    "file": "Shanwei 2018 11 part31.jpg",
-    "error": "<HTTPError 429: 'Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)'>"
-  },
-  {
-    "id": "11",
-    "file": "Shanwei 2018 11 part11.jpg",
-    "error": "<HTTPError 429: 'Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)'>"
-  },
-  {
     "id": "12",
     "file": "Shan Wei 2018.jpg",
-    "error": "<HTTPError 429: 'Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)'>"
-  },
-  {
-    "id": "13",
-    "file": "汕尾沿海海景一瞥.jpg",
-    "error": "<HTTPError 429: 'Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)'>"
-  },
-  {
-    "id": "14",
-    "file": "汕尾风光1.jpg",
-    "error": "<HTTPError 429: 'Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)'>"
+    "error": "<HTTPError 429: 'Too Many Requests (015d12c)'>"
   }
 ]
