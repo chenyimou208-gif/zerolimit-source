@@ -9,7 +9,25 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Hong_Hai_Wan,_Shanwei,_Aug_2022.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Hong_Hai_Wan%2C_Shanwei%2C_Aug_2022.jpg/1280px-Hong_Hai_Wan%2C_Shanwei%2C_Aug_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/01_honghaiwan_2022.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/01_honghaiwan_2022.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/01_honghaiwan_2022.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2022-08-14 15:06:11",
+    "source_description": "​汕尾红海湾",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Hong_Hai_Wan%2C_Shanwei%2C_Aug_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 4000,
+    "source_height": 2250,
+    "working_copy_dimensions": [
+      1280,
+      720
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "73a8bdcfe71c3c26a092d0e646fd8a81ddd22f2fbe1fd443c96a4d2f5dd95c2e",
+    "reference_sha256": "7823a6364b54b878a06d2a276c6b16cf870d8c159f20328f71e56c59054cd256",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   },
   {
     "id": "02",
@@ -21,7 +39,25 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Shanwei_Zhelang_Honghaiwan_2014.01.18_14-28-16.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Shanwei_Zhelang_Honghaiwan_2014.01.18_14-28-16.jpg/1280px-Shanwei_Zhelang_Honghaiwan_2014.01.18_14-28-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/02_honghaiwan_2014_a.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/02_honghaiwan_2014_a.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/02_honghaiwan_2014_a.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2014-01-18 14:28:16",
+    "source_description": "汕尾遮浪红海湾",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Shanwei_Zhelang_Honghaiwan_2014.01.18_14-28-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 5472,
+    "source_height": 3648,
+    "working_copy_dimensions": [
+      1280,
+      853
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "ff8089909b9cf776c6362deebe14d72723724712846d5c3ec48cd99a1de9312c",
+    "reference_sha256": "3cf7e185775e4aedd8a7ad631f69b372033d0a237f70ea419386b07b5750ed70",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   },
   {
     "id": "03",
@@ -33,7 +69,25 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Shanwei_Zhelang_Honghaiwan_2014.01.18_14-58-32.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Shanwei_Zhelang_Honghaiwan_2014.01.18_14-58-32.jpg/1280px-Shanwei_Zhelang_Honghaiwan_2014.01.18_14-58-32.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/03_honghaiwan_2014_b.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/03_honghaiwan_2014_b.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/03_honghaiwan_2014_b.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2014-01-18 14:58:32",
+    "source_description": "汕尾遮浪红海湾",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Shanwei_Zhelang_Honghaiwan_2014.01.18_14-58-32.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 5472,
+    "source_height": 3648,
+    "working_copy_dimensions": [
+      1280,
+      853
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "138833bd173d92c9d4431037cb54a8091b8a93fc8beea0c17dcecee9cebf8142",
+    "reference_sha256": "efb98e7c0cf2296187b02ddfb2c2623e1a5c9d07f6e924a276e659ffea45af56",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   },
   {
     "id": "04",
@@ -45,7 +99,25 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Shanwei_Zhelang_Honghaiwan_2014.01.18_15-03-43.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Shanwei_Zhelang_Honghaiwan_2014.01.18_15-03-43.jpg/1280px-Shanwei_Zhelang_Honghaiwan_2014.01.18_15-03-43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/04_honghaiwan_2014_c.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/04_honghaiwan_2014_c.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/04_honghaiwan_2014_c.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2014-01-18 15:03:43",
+    "source_description": "汕尾遮浪红海湾",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Shanwei_Zhelang_Honghaiwan_2014.01.18_15-03-43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 5472,
+    "source_height": 3648,
+    "working_copy_dimensions": [
+      1280,
+      853
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "7cf9b4bed7fb73647995deeee9932b1a3a7b5de9ec0a82911d075d9597108e45",
+    "reference_sha256": "591a55cbb9ea243f5d498f71f82916a24d9e71c879ed2c8eaa8f77ad37db1e72",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   },
   {
     "id": "05",
@@ -57,7 +129,25 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Shanwei_Yugang_2014.01.18_11-18-05.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Shanwei_Yugang_2014.01.18_11-18-05.jpg/1280px-Shanwei_Yugang_2014.01.18_11-18-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/05_shanwei_fishing_port_a.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/05_shanwei_fishing_port_a.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/05_shanwei_fishing_port_a.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2014-01-18 11:18:05",
+    "source_description": "汕尾渔港",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Shanwei_Yugang_2014.01.18_11-18-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 5472,
+    "source_height": 3648,
+    "working_copy_dimensions": [
+      1280,
+      853
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "ab70f3f8b32fdbe984dc960639c3ce10d2bec2086515f4b221a8d3fa71cea21f",
+    "reference_sha256": "491e70561b0124d763241fe0a75f90891815e3bae5c7c96a4b912b4080b9231c",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   },
   {
     "id": "06",
@@ -69,7 +159,25 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Shanwei_Yugang_2014.01.18_11-47-43.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Shanwei_Yugang_2014.01.18_11-47-43.jpg/1280px-Shanwei_Yugang_2014.01.18_11-47-43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/06_shanwei_fishing_port_b.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/06_shanwei_fishing_port_b.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/06_shanwei_fishing_port_b.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2014-01-18 11:47:43",
+    "source_description": "汕尾渔港",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Shanwei_Yugang_2014.01.18_11-47-43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 5472,
+    "source_height": 3648,
+    "working_copy_dimensions": [
+      1280,
+      853
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "a23a5eb7e2e48e9028c8ddf3492fc6a536b87b4acba52e2d79dfac1cd9133dfc",
+    "reference_sha256": "369c56fff21db7fff0e505f43499dd553a2d2942b07332c3851ed717777bd1e8",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   },
   {
     "id": "07",
@@ -81,7 +189,25 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Shanwei_Yugang_2014.01.18_11-54-45.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Shanwei_Yugang_2014.01.18_11-54-45.jpg/1280px-Shanwei_Yugang_2014.01.18_11-54-45.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/07_shanwei_fishing_port_c.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/07_shanwei_fishing_port_c.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/07_shanwei_fishing_port_c.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2014-01-18 11:54:45",
+    "source_description": "汕尾渔港",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Shanwei_Yugang_2014.01.18_11-54-45.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 5472,
+    "source_height": 3648,
+    "working_copy_dimensions": [
+      1280,
+      853
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "538565427fdda0bead4f3ff738c106e8096c03706c434320143e31614c1fd348",
+    "reference_sha256": "1816eedcb41e4f1ecfb431a347c7d737dc4af4cb9c0a57af6d9ba3fc2aebf709",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   },
   {
     "id": "08",
@@ -93,7 +219,25 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Shanwei_2018_11_part12.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Shanwei_2018_11_part12.jpg/1280px-Shanwei_2018_11_part12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/08_shanwei_avenue.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/08_shanwei_avenue.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/08_shanwei_avenue.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2018-11-12 11:34:03",
+    "source_description": "​汕尾市主要道路汕尾大道",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Shanwei_2018_11_part12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 4032,
+    "source_height": 3024,
+    "working_copy_dimensions": [
+      1280,
+      960
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "7e327353c62c0ef3f30c40976fb88547b891a0187ed4c60399f227de2a0d9787",
+    "reference_sha256": "82283ea566c6c783ffb74d4083980fa3577f953a8763e424ee2131ce5ba15480",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   },
   {
     "id": "09",
@@ -105,7 +249,25 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Shanwei_2018_11_part26.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Shanwei_2018_11_part26.jpg/1280px-Shanwei_2018_11_part26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/09_shanwei_city_panorama.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/09_shanwei_city_panorama.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/09_shanwei_city_panorama.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2018-11-12 12:44:07",
+    "source_description": "​俯瞰汕尾城區全景圖",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Shanwei_2018_11_part26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 14314,
+    "source_height": 3628,
+    "working_copy_dimensions": [
+      1280,
+      324
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "f7bc58c8e46426b1ab1856b3ee6bbdd443212c0a8e88eee291df1512bc426da5",
+    "reference_sha256": "540e3bb0836b8f823121dcc34804544839d96a30114d8334aadd26001233102b",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   },
   {
     "id": "10",
@@ -117,7 +279,25 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Shanwei_2018_11_part31.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Shanwei_2018_11_part31.jpg/1280px-Shanwei_2018_11_part31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/10_shanwei_road_intersection.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/10_shanwei_road_intersection.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/10_shanwei_road_intersection.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2018-11-12 14:21:03",
+    "source_description": "​汕尾市通航路與汕尾大道交界",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Shanwei_2018_11_part31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 4032,
+    "source_height": 3024,
+    "working_copy_dimensions": [
+      1280,
+      960
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "c54b39d8475683fd39984e3ea9c8a808ad872f2b6cb5b22a53a8766df0570714",
+    "reference_sha256": "4f92ba36ef9edc641686c2cc349187839a4aecaf049a9182d0b8cda7407b7169",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   },
   {
     "id": "11",
@@ -129,7 +309,25 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Shanwei_2018_11_part11.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Shanwei_2018_11_part11.jpg/1280px-Shanwei_2018_11_part11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/11_shanwei_city_building.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/11_shanwei_city_building.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/11_shanwei_city_building.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2018-11-12 11:31:55",
+    "source_description": "​汕尾市中國移動電信公司總部",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Shanwei_2018_11_part11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 4032,
+    "source_height": 3024,
+    "working_copy_dimensions": [
+      1280,
+      960
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "4fd9f20be420b259302ea80ef30edb161b54b4113f19026faa53ee4ae30cc57f",
+    "reference_sha256": "09a7bc7fc3c5434c74fdf5ad6adb0a52710ba83b629fc91101519238a08ded6f",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   },
   {
     "id": "13",
@@ -141,7 +339,25 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:%E6%B1%95%E5%B0%BE%E6%B2%BF%E6%B5%B7%E6%B5%B7%E6%99%AF%E4%B8%80%E7%9E%A5.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%E6%B1%95%E5%B0%BE%E6%B2%BF%E6%B5%B7%E6%B5%B7%E6%99%AF%E4%B8%80%E7%9E%A5.jpg/1280px-%E6%B1%95%E5%B0%BE%E6%B2%BF%E6%B5%B7%E6%B5%B7%E6%99%AF%E4%B8%80%E7%9E%A5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/13_shanwei_coast.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/13_shanwei_coast.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/13_shanwei_coast.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2015-08-01",
+    "source_description": "​汕尾海岸一景",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/%E6%B1%95%E5%B0%BE%E6%B2%BF%E6%B5%B7%E6%B5%B7%E6%99%AF%E4%B8%80%E7%9E%A5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 3264,
+    "source_height": 2448,
+    "working_copy_dimensions": [
+      1280,
+      960
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "e500b0f779a6fafab5e04fd7a6afbb186d8d70f5096d66aedb161503966718f9",
+    "reference_sha256": "0e53afe66c726bc21b50e41099f63d51613a515034e1d81d491b26b20d465b53",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   },
   {
     "id": "14",
@@ -153,6 +369,24 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:%E6%B1%95%E5%B0%BE%E9%A3%8E%E5%85%891.jpg",
     "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/%E6%B1%95%E5%B0%BE%E9%A3%8E%E5%85%891.jpg/1280px-%E6%B1%95%E5%B0%BE%E9%A3%8E%E5%85%891.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "original_path": "shanwei-video-assets/originals/14_pinqing_lake_sunset.jpg",
-    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/14_pinqing_lake_sunset.jpg"
+    "gemini_ref_path": "shanwei-video-assets/gemini_refs_16x9/14_pinqing_lake_sunset.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2022-08-16 18:19:49",
+    "source_description": "汕尾品清湖夕阳西下，风光无限。",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/%E6%B1%95%E5%B0%BE%E9%A3%8E%E5%85%891.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 3648,
+    "source_height": 2736,
+    "working_copy_dimensions": [
+      1280,
+      960
+    ],
+    "reference_dimensions": [
+      1920,
+      1080
+    ],
+    "working_copy_sha256": "bf69338a8a49912ff223435e08bbaff2a54617c75a3ad292d768981ce6d64133",
+    "reference_sha256": "0e4641517f808adc9c4a89c25f6dd4378eac3cdc3123e60fd1e878a1dd4c40c0",
+    "is_full_resolution_original": false,
+    "modifications": "Commons working-resolution JPEG; reference copy center-cropped and resized to 1920x1080. No AI reconstruction."
   }
 ]

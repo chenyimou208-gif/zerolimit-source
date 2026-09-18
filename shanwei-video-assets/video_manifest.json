@@ -7,7 +7,19 @@
     "license": "CC BY 3.0",
     "source_page": "https://commons.wikimedia.org/wiki/File:2020年8月16日_海南疍家人开渔：传统祭海仪式后鸣笛出海.webm",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/2020%E5%B9%B48%E6%9C%8816%E6%97%A5_%E6%B5%B7%E5%8D%97%E7%96%8D%E5%AE%B6%E4%BA%BA%E5%BC%80%E6%B8%94%EF%BC%9A%E4%BC%A0%E7%BB%9F%E7%A5%AD%E6%B5%B7%E4%BB%AA%E5%BC%8F%E5%90%8E%E9%B8%A3%E7%AC%9B%E5%87%BA%E6%B5%B7.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "note": "Generic B-roll only; do not present this clip as footage shot in Shanwei."
+    "note": "Generic B-roll only; do not present this clip as footage shot in Shanwei.",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_date": "2020-08-13",
+    "source_description": "8月16日12时，历时3个半月的南海伏季休渔结束，海南省1.67万艘渔船解除禁令，陆续出海牧渔。在海南南部的陵水新村渔港，当地疍家渔民在一场传统祭海仪式后，将彩旗插上大小船只，鸣笛呼应有序出海。",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/2020%E5%B9%B48%E6%9C%8816%E6%97%A5_%E6%B5%B7%E5%8D%97%E7%96%8D%E5%AE%B6%E4%BA%BA%E5%BC%80%E6%B8%94%EF%BC%9A%E4%BC%A0%E7%BB%9F%E7%A5%AD%E6%B5%B7%E4%BB%AA%E5%BC%8F%E5%90%8E%E9%B8%A3%E7%AC%9B%E5%87%BA%E6%B5%B7.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 1280,
+    "source_height": 720,
+    "duration_seconds": 8.0,
+    "width": 1280,
+    "height": 720,
+    "sha256": "5688ce5168f6a2e9a5e92b2543a2de9abb5fa04108108f67d6f00a88531cab19",
+    "is_shanwei_footage": false,
+    "modifications": "Excerpt selected, center-cropped/resized to 1280x720, converted to H.264/AAC MP4 at 30fps."
   },
   {
     "id": "v02",
@@ -17,7 +29,19 @@
     "license": "CC BY-SA 4.0",
     "source_page": "https://commons.wikimedia.org/wiki/File:秦皇岛山海关老龙头景区的沙滩海水.webm",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%E7%A7%A6%E7%9A%87%E5%B2%9B%E5%B1%B1%E6%B5%B7%E5%85%B3%E8%80%81%E9%BE%99%E5%A4%B4%E6%99%AF%E5%8C%BA%E7%9A%84%E6%B2%99%E6%BB%A9%E6%B5%B7%E6%B0%B4.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "note": "Generic B-roll only; do not present this clip as footage shot in Shanwei."
+    "note": "Generic B-roll only; do not present this clip as footage shot in Shanwei.",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_date": "2022-08-15",
+    "source_description": "​秦皇岛山海关老龙头景区的沙滩海水",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%E7%A7%A6%E7%9A%87%E5%B2%9B%E5%B1%B1%E6%B5%B7%E5%85%B3%E8%80%81%E9%BE%99%E5%A4%B4%E6%99%AF%E5%8C%BA%E7%9A%84%E6%B2%99%E6%BB%A9%E6%B5%B7%E6%B0%B4.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 3840,
+    "source_height": 2160,
+    "duration_seconds": 5.514833,
+    "width": 1280,
+    "height": 720,
+    "sha256": "18fc258ee1eb3b376bc297ad17ae83c42e56941ca73a45f5f69db18214eacb60",
+    "is_shanwei_footage": false,
+    "modifications": "Excerpt selected, center-cropped/resized to 1280x720, converted to H.264/AAC MP4 at 30fps."
   },
   {
     "id": "v03",
@@ -27,6 +51,18 @@
     "license": "CC BY 3.0",
     "source_page": "https://commons.wikimedia.org/wiki/File:竹灣海灘的海浪聲.webm",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/%E7%AB%B9%E7%81%A3%E6%B5%B7%E7%81%98%E7%9A%84%E6%B5%B7%E6%B5%AA%E8%81%B2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "note": "Generic B-roll only; do not present this clip as footage shot in Shanwei."
+    "note": "Generic B-roll only; do not present this clip as footage shot in Shanwei.",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_date": "2024-03-12",
+    "source_description": "​竹灣海灘的海浪聲",
+    "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/%E7%AB%B9%E7%81%A3%E6%B5%B7%E7%81%98%E7%9A%84%E6%B5%B7%E6%B5%AA%E8%81%B2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source_width": 1920,
+    "source_height": 1080,
+    "duration_seconds": 8.0,
+    "width": 1280,
+    "height": 720,
+    "sha256": "7e7c8eff8aa38255df4674ac66be70e9e6f48b31f7ec2cebecc32d56c835093c",
+    "is_shanwei_footage": false,
+    "modifications": "Excerpt selected, center-cropped/resized to 1280x720, converted to H.264/AAC MP4 at 30fps."
   }
 ]

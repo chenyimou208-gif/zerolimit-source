@@ -1,0 +1,280 @@
+{
+  "status": "PASS",
+  "distinct_shanwei_photos": 13,
+  "jpeg_files": 26,
+  "reference_dimensions": [
+    1920,
+    1080
+  ],
+  "generic_mp4_files": 3,
+  "shanwei_live_action_video_files": 0,
+  "media_bytes": 18886349,
+  "video_total_seconds": 21.515,
+  "checks": [
+    "All JPEG files verified and fully decoded",
+    "Distinct photo SHA-256 checked",
+    "All MP4 files probed and fully video-decoded",
+    "16 source author/license records refreshed from Commons API"
+  ],
+  "excluded_selection_ids": [
+    "12"
+  ],
+  "images": [
+    {
+      "id": "01",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/01_honghaiwan_2022.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 192524,
+        "sha256": "73a8bdcfe71c3c26a092d0e646fd8a81ddd22f2fbe1fd443c96a4d2f5dd95c2e"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/01_honghaiwan_2022.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 414823,
+        "sha256": "7823a6364b54b878a06d2a276c6b16cf870d8c159f20328f71e56c59054cd256"
+      }
+    },
+    {
+      "id": "02",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/02_honghaiwan_2014_a.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 180248,
+        "sha256": "ff8089909b9cf776c6362deebe14d72723724712846d5c3ec48cd99a1de9312c"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/02_honghaiwan_2014_a.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 350913,
+        "sha256": "3cf7e185775e4aedd8a7ad631f69b372033d0a237f70ea419386b07b5750ed70"
+      }
+    },
+    {
+      "id": "03",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/03_honghaiwan_2014_b.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 372684,
+        "sha256": "138833bd173d92c9d4431037cb54a8091b8a93fc8beea0c17dcecee9cebf8142"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/03_honghaiwan_2014_b.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 659235,
+        "sha256": "efb98e7c0cf2296187b02ddfb2c2623e1a5c9d07f6e924a276e659ffea45af56"
+      }
+    },
+    {
+      "id": "04",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/04_honghaiwan_2014_c.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 437705,
+        "sha256": "7cf9b4bed7fb73647995deeee9932b1a3a7b5de9ec0a82911d075d9597108e45"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/04_honghaiwan_2014_c.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 768233,
+        "sha256": "591a55cbb9ea243f5d498f71f82916a24d9e71c879ed2c8eaa8f77ad37db1e72"
+      }
+    },
+    {
+      "id": "05",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/05_shanwei_fishing_port_a.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 242310,
+        "sha256": "ab70f3f8b32fdbe984dc960639c3ce10d2bec2086515f4b221a8d3fa71cea21f"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/05_shanwei_fishing_port_a.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 448123,
+        "sha256": "491e70561b0124d763241fe0a75f90891815e3bae5c7c96a4b912b4080b9231c"
+      }
+    },
+    {
+      "id": "06",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/06_shanwei_fishing_port_b.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 152858,
+        "sha256": "a23a5eb7e2e48e9028c8ddf3492fc6a536b87b4acba52e2d79dfac1cd9133dfc"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/06_shanwei_fishing_port_b.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 288647,
+        "sha256": "369c56fff21db7fff0e505f43499dd553a2d2942b07332c3851ed717777bd1e8"
+      }
+    },
+    {
+      "id": "07",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/07_shanwei_fishing_port_c.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 286470,
+        "sha256": "538565427fdda0bead4f3ff738c106e8096c03706c434320143e31614c1fd348"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/07_shanwei_fishing_port_c.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 540070,
+        "sha256": "1816eedcb41e4f1ecfb431a347c7d737dc4af4cb9c0a57af6d9ba3fc2aebf709"
+      }
+    },
+    {
+      "id": "08",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/08_shanwei_avenue.jpg",
+        "width": 1280,
+        "height": 960,
+        "bytes": 350159,
+        "sha256": "7e327353c62c0ef3f30c40976fb88547b891a0187ed4c60399f227de2a0d9787"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/08_shanwei_avenue.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 514903,
+        "sha256": "82283ea566c6c783ffb74d4083980fa3577f953a8763e424ee2131ce5ba15480"
+      }
+    },
+    {
+      "id": "09",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/09_shanwei_city_panorama.jpg",
+        "width": 1280,
+        "height": 324,
+        "bytes": 114972,
+        "sha256": "f7bc58c8e46426b1ab1856b3ee6bbdd443212c0a8e88eee291df1512bc426da5"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/09_shanwei_city_panorama.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 292621,
+        "sha256": "540e3bb0836b8f823121dcc34804544839d96a30114d8334aadd26001233102b"
+      }
+    },
+    {
+      "id": "10",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/10_shanwei_road_intersection.jpg",
+        "width": 1280,
+        "height": 960,
+        "bytes": 340044,
+        "sha256": "c54b39d8475683fd39984e3ea9c8a808ad872f2b6cb5b22a53a8766df0570714"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/10_shanwei_road_intersection.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 503990,
+        "sha256": "4f92ba36ef9edc641686c2cc349187839a4aecaf049a9182d0b8cda7407b7169"
+      }
+    },
+    {
+      "id": "11",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/11_shanwei_city_building.jpg",
+        "width": 1280,
+        "height": 960,
+        "bytes": 335139,
+        "sha256": "4fd9f20be420b259302ea80ef30edb161b54b4113f19026faa53ee4ae30cc57f"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/11_shanwei_city_building.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 514665,
+        "sha256": "09a7bc7fc3c5434c74fdf5ad6adb0a52710ba83b629fc91101519238a08ded6f"
+      }
+    },
+    {
+      "id": "13",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/13_shanwei_coast.jpg",
+        "width": 1280,
+        "height": 960,
+        "bytes": 405456,
+        "sha256": "e500b0f779a6fafab5e04fd7a6afbb186d8d70f5096d66aedb161503966718f9"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/13_shanwei_coast.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 606942,
+        "sha256": "0e53afe66c726bc21b50e41099f63d51613a515034e1d81d491b26b20d465b53"
+      }
+    },
+    {
+      "id": "14",
+      "working_copy": {
+        "path": "shanwei-video-assets/originals/14_pinqing_lake_sunset.jpg",
+        "width": 1280,
+        "height": 960,
+        "bytes": 257007,
+        "sha256": "bf69338a8a49912ff223435e08bbaff2a54617c75a3ad292d768981ce6d64133"
+      },
+      "reference_16x9": {
+        "path": "shanwei-video-assets/gemini_refs_16x9/14_pinqing_lake_sunset.jpg",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 369696,
+        "sha256": "0e4641517f808adc9c4a89c25f6dd4378eac3cdc3123e60fd1e878a1dd4c40c0"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": "v01",
+      "path": "shanwei-video-assets/broll_generic/v01_south_china_fishing_departure.mp4",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "bytes": 1458182,
+      "sha256": "5688ce5168f6a2e9a5e92b2543a2de9abb5fa04108108f67d6f00a88531cab19",
+      "is_shanwei_footage": false
+    },
+    {
+      "id": "v02",
+      "path": "shanwei-video-assets/broll_generic/v02_generic_beach_waves.mp4",
+      "duration_seconds": 5.514833,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "bytes": 4459638,
+      "sha256": "18fc258ee1eb3b376bc297ad17ae83c42e56941ca73a45f5f69db18214eacb60",
+      "is_shanwei_footage": false
+    },
+    {
+      "id": "v03",
+      "path": "shanwei-video-assets/broll_generic/v03_generic_waves_with_sound.mp4",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "bytes": 3028092,
+      "sha256": "7e7c8eff8aa38255df4674ac66be70e9e6f48b31f7ec2cebecc32d56c835093c",
+      "is_shanwei_footage": false
+    }
+  ]
+}

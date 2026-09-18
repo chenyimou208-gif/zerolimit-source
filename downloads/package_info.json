@@ -1,0 +1,11 @@
+{
+  "path": "downloads/shanwei_materials_ready.zip",
+  "bytes": 18859984,
+  "sha256": "aa75f15f034a18756b1312bf8bdf76ff3c2f5acdbf028a76efcd5f0256260601",
+  "zip_entries": 39,
+  "zip_crc_test": "PASS",
+  "distinct_photos": 13,
+  "jpeg_files": 26,
+  "mp4_files": 3,
+  "download_url": "https://github.com/chenyimou208-gif/zerolimit-source/raw/refs/heads/main/downloads/shanwei_materials_ready.zip"
+}
