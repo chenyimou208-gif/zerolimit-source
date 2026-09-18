@@ -87,6 +87,8 @@ def make_ref(src: Path, dst: Path):
         fitted = ImageOps.fit(im, (1920, 1080), method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
         fitted.save(dst, "JPEG", quality=90, optimize=True)
 
+resolved_urls = resolve_thumb_urls([a["file"] for a in ASSETS])
+
 manifest = []
 failures = []
 for idx, a in enumerate(ASSETS):
