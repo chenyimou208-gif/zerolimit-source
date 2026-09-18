@@ -1,0 +1,138 @@
+name: Generate Shanwei natural narration
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/generate-shanwei-natural-voice.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-voice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install TTS
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install edge-tts
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Generate natural Mandarin narration
+        run: |
+          cat > /tmp/make_voice.py <<'PY'
+          import asyncio, subprocess, json
+          from pathlib import Path
+          import edge_tts
+
+          out = Path("voice_artifact")
+          segdir = out / "segments"
+          segdir.mkdir(parents=True, exist_ok=True)
+
+          voice = "zh-CN-XiaoxiaoNeural"
+          rate = "-4%"
+          pitch = "-2Hz"
+
+          narr = [
+              (3.10, 7.75, "大家好，我的家乡是广东汕尾，一座向海而生的城市。"),
+              (8.55, 17.00, "走进汕尾，最先感受到的，不只是辽阔的海，还有藏在庙宇和街巷里的生活记忆。"),
+              (17.55, 25.50, "香火、戏台和熟悉的街景，让这座海滨城市一直保留着自己的温度。"),
+              (26.00, 33.00, "街坊的日常，海边的风景，组成了最真实的家乡模样。"),
+              (33.50, 45.50, "沿着海岸继续向前，海水、长堤、渔港和潮汐，把山与海铺展到眼前。"),
+              (46.00, 52.50, "海风吹过，城市的节奏，也变得更加开阔。"),
+              (53.00, 63.50, "从港湾到城区，从滨海道路到夜色灯火，今天的汕尾，也在不断生长。"),
+              (64.00, 74.50, "街边小店亮起灯火，锅里升腾着热气，一道道熟悉的家乡味，让夜晚有了最真实的人间烟火。"),
+              (75.00, 84.50, "对我来说，汕尾最动人的，从来不只是一个景点，而是海边的风，老城的声音，还有熟悉的味道。"),
+              (85.00, 89.55, "山海相依，烟火可亲。这里是汕尾，也是我的家乡。"),
+          ]
+
+          async def synth(i, text):
+              p = segdir / f"raw_{i:02d}.mp3"
+              communicate = edge_tts.Communicate(text=text, voice=voice, rate=rate, pitch=pitch, volume="+0%")
+              await communicate.save(str(p))
+              return p
+
+          async def main():
+              raws = []
+              for i, (_, _, text) in enumerate(narr, 1):
+                  print("Generating", i, text)
+                  raws.append(await synth(i, text))
+
+              fitted = []
+              for i, ((st, en, text), raw) in enumerate(zip(narr, raws), 1):
+                  dur = float(subprocess.check_output([
+                      "ffprobe","-v","error","-show_entries","format=duration",
+                      "-of","default=nw=1:nk=1", str(raw)
+                  ]).decode().strip())
+                  window = en - st - 0.12
+                  filters = [
+                      "highpass=f=70",
+                      "lowpass=f=12000",
+                      "acompressor=threshold=-18dB:ratio=1.8:attack=12:release=120",
+                      "loudnorm=I=-16:TP=-1.5:LRA=7"
+                  ]
+                  if dur > window:
+                      ratio = dur / window
+                      if ratio <= 2.0:
+                          filters.insert(0, f"atempo={ratio:.6f}")
+                      else:
+                          filters.insert(0, "atempo=2.0")
+                          filters.insert(1, f"atempo={ratio/2.0:.6f}")
+                  target = segdir / f"fit_{i:02d}.wav"
+                  subprocess.run([
+                      "ffmpeg","-y","-v","error","-i",str(raw),
+                      "-af", ",".join(filters),
+                      "-ar","48000","-ac","2",str(target)
+                  ], check=True)
+                  fitted.append(target)
+
+              inputs = []
+              chains = []
+              labels = []
+              for i, ((st, en, text), p) in enumerate(zip(narr, fitted)):
+                  inputs += ["-i", str(p)]
+                  delay = int(round(st * 1000))
+                  chains.append(f"[{i}:a]adelay={delay}|{delay}[a{i}]")
+                  labels.append(f"[a{i}]")
+              filt = ";".join(chains + [
+                  "".join(labels) + f"amix=inputs={len(labels)}:duration=longest:dropout_transition=0,"
+                  "apad=pad_dur=90,atrim=0:90,loudnorm=I=-16:TP=-1.5:LRA=7[out]"
+              ])
+              full = out / "shanwei_natural_voice_90s.wav"
+              subprocess.run([
+                  "ffmpeg","-y","-v","error",*inputs,
+                  "-filter_complex",filt,"-map","[out]",
+                  "-ar","48000","-ac","2",str(full)
+              ], check=True)
+
+              # host line separate, high quality AAC
+              subprocess.run([
+                  "ffmpeg","-y","-v","error","-i",str(fitted[0]),
+                  "-c:a","aac","-b:a","192k",str(out/"host_line.m4a")
+              ], check=True)
+
+              (out/"narration.txt").write_text("\n".join(t for _,_,t in narr), encoding="utf-8")
+              (out/"meta.json").write_text(json.dumps({
+                  "voice": voice, "rate": rate, "pitch": pitch,
+                  "segments": len(narr)
+              }, ensure_ascii=False, indent=2), encoding="utf-8")
+
+          asyncio.run(main())
+          PY
+          python /tmp/make_voice.py
+
+      - name: Upload natural narration
+        uses: actions/upload-artifact@v4
+        with:
+          name: shanwei-natural-voice
+          path: voice_artifact
+          retention-days: 7
