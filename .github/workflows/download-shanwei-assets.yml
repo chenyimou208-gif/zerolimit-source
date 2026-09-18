@@ -20,8 +20,10 @@ jobs:
           python-version: '3.11'
       - name: Install Pillow
         run: python -m pip install --upgrade pillow
-      - name: Download and prepare assets
+      - name: Download Shanwei image assets
         run: python scripts/download_shanwei_assets.py
+      - name: Download and trim open-license B-roll videos
+        run: python scripts/download_broll_videos.py
       - name: Commit generated assets
         run: |
           git config user.name "github-actions[bot]"
@@ -30,6 +32,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Add Shanwei video assets"
+            git commit -m "Add Shanwei image and video assets"
             git push
           fi
